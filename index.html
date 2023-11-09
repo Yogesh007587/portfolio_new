@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yogeshTripathi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">.Yog<span>esh</span></a>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Web Developer</p>
+                <h1>Hi, I'm <span>Yogesh</span><br>Tripathi</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/yogesh_tripathi.jpg">
+                </div>
+                <div class="about-col-2" id="about">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am pursuing my <span class="btech">Bachelor of Technology</span> with state 
+                        <span class="btech">Computer Science</span> from GLA UNIVERSITY. I am having a keen
+                        interest in <span class="btech">Web Development</span> and using <span class="btech">JAVA</span> 
+                        as my Technical Language. As a learner I'm having a good knowledge of <span class="btech">HTML, CSS, JavaScript</span> and <span class="btech">Bootstrap</span>.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Web Development</span><br>Designing Web interfaces.</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <!-- <li><span>App Development</span><br>Building Android/iOS apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 2022 - July 2022</span><br>JoVAC Training in Exploring Data Science.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>April 2016-April 2017</span><br>Class 10<sup>th</sup> from The Pillars Public School Gorakhpur</li>
+                            <li><span>April 2018-April 2019</span><br>Class 12<sup>th</sup> from R.P.M Academy Gorakhpur</li>
+                            <li><span>Sept 2020 - June 2024</span><br>BTECH from GLA University.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <!-- <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi
+                        officia, alias vitae fugiat fuga exercitationem.</p>
+                    <a href="#">Learn more</a>
+                </div> -->
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>As a learner I'm enhancing my skill by learning about MERN stack to upgrade my 
+                        knowledge base.</p><br>
+                    <p>Follow the below link to visit my Github Repository.</p>
+                    <a href="https://github.com/Yogesh007587" class="learn">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Frontend Web Developer</h2>
+                    <p>Having a good knowledge of about HTML,CSS ,JS and BootStrap and developed many projects with these technologies.</p><br>
+                    <p>Follow the down link to visit my Github Repository.</p>
+                    <a href="https://github.com/Yogesh007587" class="learn">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/news-app.png" alt="">
+                    <div class="layer">
+                        <h2>News App</h2>
+                        <p>Created News App by fetching news API of News24.org.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio_website_image.png" alt="">
+                    <div class="layer">
+                        <h2>Portfolio Website</h2>
+                        <p>Created my portfolio website with the help of technology HTML,CSS and JS</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project_1.png" alt="" class="stock">
+                    <div class="layer">
+                        <h2>Stock Market Blogging Website</h2>
+                        <p>Created stock market blogging website with the help of technology HTML,CSS and JS</p>
+                        <a href="https://yogesh007587.github.io/project/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> yogeshtripathi2002@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8400732694</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Yogesh_Tripathi_ReSuMe.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Yogesh Tripathi. Made with <i class="fas fa-heart"></i> by Yogesh Tripathi</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
